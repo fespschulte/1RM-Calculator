@@ -23,7 +23,8 @@
     </header>
     <main>
       <section>
-        <h1>Calculadora<br><span>1 Repetição Máxima</span></h1>
+        <h1>Calculadora</h1>
+        <h2><span>1 Repetição Máxima</span></h2>
 
           <div class="formulario">
             <label>Carga utilizada <br></label>
@@ -32,12 +33,12 @@
           <div class="formulario">
             <label>Repetições realizadas <br></label>
             <input type="number" id="reps" name="reps" placeholder="0">
+            <button onclick="calcularRm();return false">Calcular</button>
           </div>
-          <button onclick="calcularRm();return false">Calcular</button>
 
       </section>
       <section>
-        <h2 id="answer">Resultado</h2>
+        <h3 id="answer">Resultado</h3>
         <table>
           <tr>
             <thead>
