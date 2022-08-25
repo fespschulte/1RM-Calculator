@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <title>Calculadora 1RM</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="./img/logo 16x16.png">
+  <script src="1rmcalculator.js"></script>
+</head>
+<body>
+  <div class="page">
+    <header>
+      <header>
+        <img src="./img/logo pequeno caixa branco.png" alt="Logotipo da marca da calculadora">
+        <ul>
+          <li><a href="/index.html">Calculadora</a></li>
+          <li><a href="/contato.html">Contato</a></li>
+        </ul>
+      </header>
+    </header>
+    <main>
+      <section>
+        <h1>Calculadora<br><span>1 Repetição Máxima</span></h1>
+
+          <div class="formulario">
+            <label>Carga utilizada <br></label>
+            <input type="number" id="carga" name="carga" placeholder="0">
+          </div>
+          <div class="formulario">
+            <label>Repetições realizadas <br></label>
+            <input type="number" id="reps" name="reps" placeholder="0">
+          </div>
+          <button onclick="calcularRm();return false">Calcular</button>
+
+      </section>
+      <section>
+        <h2 id="answer">Resultado</h2>
+        <table>
+          <tr>
+            <thead>
+              <th>Carga</th>
+              <th>Repetições</th>
+            </thead>
+            <tbody>
+
+            </tbody>
+          </tr>
+        </table>
+      </section>
+    </main>
+  </div>  
+  <footer>
+    <p class="copyright"> &#169; Natural Done</p>
+  </footer>
+</body>
+</html>
