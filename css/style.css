@@ -74,10 +74,10 @@ main {
   background-color: black;
   opacity: 0.95;
   box-shadow: 0 0 3px 2px black;
-  padding: 50px 100px;
+  padding: 50px 0px;
   border-radius: 35px;
   height: 450px;
-  min-width: 318px;
+  min-width: 520px;
 
 }
 
@@ -126,7 +126,7 @@ input {
 
 button {
   width: 250px;
-  margin-top: 5px;
+  margin-top: 15px;
   font-family: 'Montserrat', sans-serif;
   color: antiquewhite;
   text-transform: uppercase;
@@ -145,10 +145,10 @@ button {
   background-color: black;
   opacity: 0.95;
   box-shadow: 0 0 3px 2px black;
-  padding: 50px 100px;
+  padding: 50px 0px;
   border-radius: 35px;
   height: 350px;
-  min-width: 318px;
+  min-width: 520px;
 }
 .answer-box h3 {
   margin-top:0;
@@ -199,7 +199,7 @@ button {
 footer {
   display: flex;
   height: 48px;
-  width: 98.5%;
+  width: 95%;
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
