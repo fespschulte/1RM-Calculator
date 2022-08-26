@@ -2,22 +2,26 @@ body{
   font-family: 'Montserrat', sans-serif;
   color: antiquewhite;
   min-height: 100vh;
-  background-image: url("./img/IMG_5105PB.jpg");
+  background-image: url("../img/IMG_5105PB.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 .page{
-  width: 90%;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
   font-family: 'Montserrat', sans-serif;
   color: antiquewhite;
   -webkit-font-smoothing: antialiased;  margin: 0 auto 0;
   padding-top: 25px;
   margin: 0 auto 0;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 header{
-  width:100%;
+  width: 90%;
   height: 64px;
   display: flex;
   justify-content: space-between;
@@ -28,6 +32,10 @@ header img{
   max-height:150px;
   width: auto;
   height: auto;
+  opacity: 0.5;
+}
+header a:hover img{
+  opacity: 1;
 }
 header ul{
   display: flex;
@@ -51,6 +59,7 @@ opacity: 1;
 
 main {
   display: flex;
+  flex-wrap: wrap;
   margin:auto;
   align-items: center;
   justify-content: center;
@@ -58,13 +67,18 @@ main {
   gap:50px;
 }
 
-section {
+.input-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background-color: black;
   opacity: 0.95;
   box-shadow: 0 0 3px 2px black;
   padding: 50px 100px;
   border-radius: 35px;
   height: 450px;
+  min-width: 318px;
+
 }
 
 form{
@@ -74,12 +88,12 @@ form{
 }
 
 h1 {
-  margin: 0 0 10px 0;
+  margin: 10px 0 10px 0;
   font-size: 48px;
   text-align: center;
 }
 h2 {
-  margin-top: 0;
+  margin: 20px 0 60px 0;
   text-align: center;
   font-size: 32px;
 }
@@ -87,11 +101,6 @@ span{
   color:brown;
 }
 
-section h3 {
-  margin-top:0;
-  font-size: 36px;
-  text-align: center;
-}
 
 .formulario {
   font-size: 24px;
@@ -99,8 +108,8 @@ section h3 {
   flex-direction: column;
   align-items: center;
   gap:15px;
-  padding-bottom: 15px;
-
+  padding-bottom: 25px;
+  
 }
 
 input {
@@ -110,7 +119,7 @@ input {
   text-align: center;
   background-color: darkgray;
   border: none;
-  height: 36px;
+  height: 30px;
   width: 250px;
   border-radius: 5px;
 }
@@ -128,10 +137,70 @@ button {
   border-radius: 4px;
   cursor: pointer;  
 }
+.answer-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  background-color: black;
+  opacity: 0.95;
+  box-shadow: 0 0 3px 2px black;
+  padding: 50px 100px;
+  border-radius: 35px;
+  height: 350px;
+  min-width: 318px;
+}
+.answer-box h3 {
+  margin-top:0;
+  font-size: 36px;
+  text-align: center;
+}
 
+.number-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  min-width: 300px;
+  min-height: 80px;
+  border-radius: 5px;
+  border: 5px solid brown;
+  background-color: black;
+}
+
+#answer {
+  padding: 0;
+  margin: 0;
+  font-family: 'Wallpoet', cursive;
+  color: antiquewhite;
+  font-size: 48px;
+}
+.barbell {
+  display: flex;
+  align-items: center;
+}
+.edge {
+  background-color: silver;
+  height: 10px;
+  width: 35px;
+}
+.plate {
+  background-color: brown;
+  height: 120px;
+  width: 25px;
+  border: 1px solid black;
+  border-radius: 7px;
+}
+.center {
+  background-color: silver;
+  height: 10px;
+  width: 200px;
+}
 footer {
   display: flex;
+  height: 48px;
   width: 98.5%;
   flex-direction: row;
   justify-content: flex-end;
+  align-items: center;
 }

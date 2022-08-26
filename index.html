@@ -4,25 +4,27 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Wallpoet&display=swap" rel="stylesheet">
   <title>Calculadora 1RM</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
   <link rel="icon" href="./img/logo 16x16.png">
-  <script src="1rmcalculator.js"></script>
+  <script src="./js/1rmcalculator.js"></script>
 </head>
 <body>
   <div class="page">
     <header>
-      <header>
-        <img src="./img/logo pequeno caixa branco.png" alt="Logotipo da marca da calculadora">
-        <ul>
-          <li><a href="/index.html">Calculadora</a></li>
-          <li><a href="/contato.html">Contato</a></li>
-        </ul>
-      </header>
+      <a href="#"><img src="./img/logo pequeno caixa branco.png" alt="Logotipo da marca da calculadora"></a>
+      <ul>
+        <li><a href="/index.html">Calculadora</a></li>
+        <li><a href="/contato.html">Contato</a></li>
+      </ul>
     </header>
     <main>
-      <section>
+      <section class="input-box">
         <h1>Calculadora</h1>
         <h2><span>1 Repetição Máxima</span></h2>
 
@@ -33,28 +35,31 @@
           <div class="formulario">
             <label>Repetições realizadas <br></label>
             <input type="number" id="reps" name="reps" placeholder="0">
-            <button onclick="calcularRm();return false">Calcular</button>
           </div>
+          <button onclick="calcularRm();return false">Calcular</button>
 
       </section>
-      <section>
-        <h3 id="answer">Resultado</h3>
-        <table>
-          <tr>
-            <thead>
-              <th>Carga</th>
-              <th>Repetições</th>
-            </thead>
-            <tbody>
-
-            </tbody>
-          </tr>
-        </table>
+      <section class="answer-box">
+        <h3>Resultado</h3>
+        <div class="number-box">
+          <h4 id="answer"></h4>
+        </div>
+        <div class="barbell">
+          <div class="edge"></div>
+          <div class="plate"></div>
+          <div class="plate"></div>
+          <div class="plate"></div>
+          <div class="center"></div>
+          <div class="plate"></div>
+          <div class="plate"></div>
+          <div class="plate"></div>
+          <div class="edge"></div>
+        </div>
       </section>
     </main>
+    <footer>
+      <p class="copyright"> &#169; Natural Done</p>
+    </footer>
   </div>  
-  <footer>
-    <p class="copyright"> &#169; Natural Done</p>
-  </footer>
 </body>
 </html>
