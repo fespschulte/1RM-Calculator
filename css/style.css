@@ -1,7 +1,6 @@
 body{
   font-family: 'Montserrat', sans-serif;
   color: antiquewhite;
-  min-height: 100vh;
   background-image: url("../img/IMG_5105PB.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -11,10 +10,10 @@ body{
   display: flex;
   flex-direction: column;
   width: 100%;
+  min-height: 100vh;
   font-family: 'Montserrat', sans-serif;
   color: antiquewhite;
   -webkit-font-smoothing: antialiased;  margin: 0 auto 0;
-  padding-top: 25px;
   margin: 0 auto 0;
   justify-content: space-evenly;
   align-items: center;
@@ -26,6 +25,7 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 25px;
 }
 header img{
   max-width:75px;
