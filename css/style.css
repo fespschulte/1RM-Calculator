@@ -214,33 +214,70 @@ footer {
 @media (max-width:540px){
   main {
     flex-direction: column;
+    margin:auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
-
-  .answer-box, .input-box {
-    min-width: 80vw;
+  .page {
+    min-height: 100vh;
   }
-
-  .edge {
-    height: 7px;
-    width: 24px;
+  .input-box {
+    padding: 30px 0px 35px;
+    height: 250px;
+    min-width: 320px;
   }
-  .plate {
-    height: 84px;
-    width: 17px;
-    border-radius: 3px;
+  h1 {
+    margin: 0;
+    font-size: 24px;
   }
-  .center {
-    height: 7px;
-    width: 140px;
+  h2 {
+    margin: 10px 0 15px 0;
+    font-size: 22px;
   }
+  .formulario {
+    font-size: 18px;
+    gap: 5px;
+    padding-bottom: 15px;
+  }    
+  button {
+    margin-top: 5px;  
+  }
+  .answer-box {
+    min-width: 320px;
+    height: 250px;
+    padding: 30px 0px 35px;
+  }
+  .answer-box h3 {
+    font-size: 28px;
+  }
+  
   .number-box {
     min-width: 200px;
     min-height: 55px;
     border-radius: 5px;
     border: 4px solid brown;
   }
+  
   #answer {
+    padding: 0;
+    margin: 0;
+    font-family: 'Wallpoet', cursive;
+    color: antiquewhite;
     font-size: 36px;
+  }
+
+  .edge {
+    height: 6px;
+    width: 24px;
+  }
+  .plate {
+    height: 75px;
+    width: 12px;
+    border-radius: 3px;
+  }
+  .center {
+    height: 6px;
+    width: 140px;
   }
 
 }
