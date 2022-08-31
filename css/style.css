@@ -220,13 +220,15 @@ footer {
     margin:auto;
     padding-top: 5%;
     padding-bottom: 5%;
+    gap:25px;
   }
   .page {
     min-height: 100vh;
   }
   .input-box {
     padding: 30px 0px 35px;
-    height: 250px;
+    justify-content: center;
+    height: 230px;
     min-width: 320px;
   }
   h1 {
@@ -241,6 +243,10 @@ footer {
     font-size: 18px;
     gap: 5px;
     padding-bottom: 15px;
+  }
+  input{
+    font-size: 16px;
+    height: 20px;
   }    
   button {
     margin-top: 5px;  
@@ -248,7 +254,7 @@ footer {
   .answer-box {
     min-width: 320px;
     height: 250px;
-    padding: 30px 0px 35px;
+    padding: 20px 0px 25px;
   }
   .answer-box h3 {
     font-size: 28px;
