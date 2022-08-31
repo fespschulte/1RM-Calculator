@@ -59,7 +59,7 @@ opacity: 1;
 
 main {
   display: flex;
-  flex-wrap: wrap;
+/*  flex-wrap: wrap;*/
   margin:auto;
   align-items: center;
   justify-content: center;
@@ -203,4 +203,44 @@ footer {
   flex-direction: row;
   justify-content: flex-end;
   align-items: center;
+}
+
+@media (max-width:1095px){
+  main {
+    flex-direction: column;
+  }
+
+}
+@media (max-width:540px){
+  main {
+    flex-direction: column;
+  }
+
+  .answer-box, .input-box {
+    min-width: 80vw;
+  }
+
+  .edge {
+    height: 7px;
+    width: 24px;
+  }
+  .plate {
+    height: 84px;
+    width: 17px;
+    border-radius: 3px;
+  }
+  .center {
+    height: 7px;
+    width: 140px;
+  }
+  .number-box {
+    min-width: 200px;
+    min-height: 55px;
+    border-radius: 5px;
+    border: 4px solid brown;
+  }
+  #answer {
+    font-size: 36px;
+  }
+
 }
