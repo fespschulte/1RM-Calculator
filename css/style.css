@@ -212,6 +212,9 @@ footer {
 
 }
 @media (max-width:540px){
+  header{
+    margin-top: 10px;
+  }
   main {
     flex-direction: column;
     margin:auto;
