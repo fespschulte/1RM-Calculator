@@ -42,6 +42,7 @@ header ul{
   flex-direction: row;
   list-style: none;
   gap:36px;
+  opacity: 0;
 }
 
 header a{
