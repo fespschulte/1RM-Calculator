@@ -180,6 +180,35 @@ button {
   display: flex;
   align-items: center;
 }
+
+table {
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: antiquewhite;
+  border-radius: 5px;
+  background-color: black;
+}
+
+th {
+  font-size: 12px;
+  padding: 10px 5px 5px;
+}
+
+td {
+  font-size: 16px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: brown;
+}
+
+.equivalent-kg {
+  font-weight: 800;
+}
+
+#kg {
+  font-size: 10px;
+}
+
 .edge {
   background-color: silver;
   height: 10px;
@@ -275,8 +304,8 @@ footer {
     color: antiquewhite;
     font-size: 36px;
   }
-
-  .edge {
+  
+/*  .edge {
     height: 6px;
     width: 24px;
   }
@@ -289,5 +318,5 @@ footer {
     height: 6px;
     width: 140px;
   }
-
+*/
 }
