@@ -198,15 +198,31 @@ button {
   background-color: brown;
 }
 
+#rm1, #rm11 {
+  border-radius: 7px 0 0 0;
+}
+
+#rm10, #rm20 {
+  border-radius: 0 7px 0 0;
+}
+
+#kg20, #kg10 {
+  border-radius: 0 0 7px 0;
+}
+
+#kg1, #kg11 {
+  border-radius: 0 0 0 7px;
+}
+
 .table-column h5 {
   font-size: 12px;
   padding: 10px 5px 5px;
 }
 
 
-#kg {
+#kg, #kg1, #kg11, #kg10, #kg20 {
   font-size: 10px;
-  padding: 10px 5px 5px;
+  padding: 0px 5px 5px;
 }
 /*
 .edge {
@@ -327,6 +343,12 @@ footer {
     padding-bottom: 2px;
     background-color: brown;
   }
+  
+  #kg1, #kg11, #kg10, #kg20 {
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+
   .table-column :nth-child(1) {
     padding-top: 0;
   }
@@ -336,7 +358,7 @@ footer {
   }
   
   
-  #kg {
+  #kg, #kg1, #kg11, #kg10, #kg20 {
     font-size: 7px;
     padding: 2px 5px 5px;
   }
