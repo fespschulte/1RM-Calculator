@@ -1,9 +1,9 @@
 function calcularRm(){
-  var weight = 0
-  var reps = 0
+  let weight = 0
+  let reps = 0
   weight = parseFloat(document.getElementById('carga').value);
   reps = parseFloat(document.getElementById('reps').value);
-  var umaRepMax = Math.round(weight/((1.0278-(0.0278*reps))));
+  let umaRepMax = Math.round(weight/((1.0278-(0.0278*reps))));
   document.getElementById('answer').innerHTML= umaRepMax + '&nbspkg';
   document.getElementById('rm1').innerHTML= Math.round(umaRepMax);
   document.getElementById('rm2').innerHTML= Math.round((umaRepMax*0.97));
