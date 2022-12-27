@@ -3,7 +3,7 @@ Calculadora de 1 Repetição Máxima para praticantes de Levantamento de Peso e 
 
 ## Objetivo do projeto
 Projeto desenvolvido durante a semana 1 da mentoria Conquiste sua Vaga do Pedro Marins e Henrique de Andrade
-Ele teve por objetivo consolidar os conhecimentos adquiridos em HTML & CSS, além de explorar a função para realizar o cálculo por meio do JavaScript.
+Ele teve por objetivo consolidar os conhecimentos adquiridos em HTML, CSS e JavaScript.
 
 ### Observações
 
